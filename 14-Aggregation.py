@@ -29,4 +29,6 @@ d1.add_employee(e1)
 d1.add_employee(e2)
 
 d1.show_employees()
+
+print(e1.__doc__)
                  # ✅ Employee still exists!

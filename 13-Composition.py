@@ -1,4 +1,15 @@
 class Engine:
+    """
+    "Jab ek class ke andar doosri class ka object hota hai, toh isay Composition kehte hain."
+
+Yeh ek "Has-A" relationship hota hai.
+
+Car has-a Engine
+
+Laptop has-a Battery
+
+Human has-a Heart
+    """
     def start(self):
         print("Engine started.")
 
